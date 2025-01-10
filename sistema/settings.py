@@ -82,7 +82,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'postgres',
         'USER': 'postgres.kpcfmbukourkjfvziejy',
-        'PASSWORD': 'HPV1q2DJRcVcCGxM',
+        'PASSWORD': '1rjhmkMxdFHchhbr',
         'HOST': 'aws-0-us-west-1.pooler.supabase.com',
         'PORT': '6543',
     }
@@ -135,6 +135,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-ALLOWED_HOSTS = ['localhost','web-production-84e53.up.railway.app']
+ALLOWED_HOSTS = ['127.0.0.1','localhost','web-production-84e53.up.railway.app']
 
-CSRF_TRUSTED_ORIGINS = ['web-production-84e53.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['http://*','http://web-production-84e53.up.railway.app']
